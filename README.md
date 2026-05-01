@@ -55,3 +55,52 @@ driver.get("http://facebook.com")
 time.sleep(2)
 print("EDGE opened successfully")
 driver.quit()
+
+
+C:\Users\cool\Documents\asaa>git init
+Initialized empty Git repository in C:/Users/cool/Documents/asaa/.git/
+
+C:\Users\cool\Documents\asaa>md .github
+
+C:\Users\cool\Documents\asaa>cd .github
+
+C:\Users\cool\Documents\asaa\.github>md workflow
+
+C:\Users\cool\Documents\asaa\.github>cd workflow
+
+C:\Users\cool\Documents\asaa\.github\workflow>type nul > bsr.yml
+
+C:\Users\cool\Documents\asaa\.github\workflow>cd..
+
+C:\Users\cool\Documents\asaa\.github>cd
+C:\Users\cool\Documents\asaa\.github
+
+C:\Users\cool\Documents\asaa\.github>cd..
+
+C:\Users\cool\Documents\asaa>git remote -v
+
+C:\Users\cool\Documents\asaa>git remote add origin https://github.com/Mohdabdulsattar/asaa
+
+C:\Users\cool\Documents\asaa>git remote -v
+origin  https://github.com/Mohdabdulsattar/asaa (fetch)
+origin  https://github.com/Mohdabdulsattar/asaa (push)
+
+C:\Users\cool\Documents\asaa>git add .
+
+C:\Users\cool\Documents\asaa>git branch -M main
+
+C:\Users\cool\Documents\asaa>git commit -m "haaa"
+[main (root-commit) bdeb866] haaa
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 .github/workflow/bsr.yml
+
+C:\Users\cool\Documents\asaa>git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 295 bytes | 295.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Mohdabdulsattar/asaa
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\cool\Documents\asaa>
